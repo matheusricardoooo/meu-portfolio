@@ -1,0 +1,41 @@
+#sobre {
+    padding-bottom: 140px;
+}
+
+#sobre .middle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#sobre .middle h1 {
+    font-family: "Poppins", serif;
+    color: #ffffff;
+    margin-top: 203px;
+}
+
+#sobre .middle .color {
+    color: #4B0082;
+    font-weight: 300;
+}
+
+#sobre .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sobre .conteudo .left h1 {
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    width: 568px;
+    height: 174px;
+    margin-top: 138px;
+}
+
+#sobre .conteudo .right img {
+    width: 360px;
+    height: 360px;
+    margin-top: 88px;
+}
