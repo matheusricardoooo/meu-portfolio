@@ -1,0 +1,157 @@
+article {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+article .tittle h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-size: 2rem;
+    padding: 103px 0px 0px 0px;
+    color: #ffffff;
+}
+
+article .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 114px;
+}
+
+article .conteudo .left h1 {
+    width: 548px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+article .conteudo .right img {
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    article {
+        height: 130vh;
+    }
+
+    article .tittle h1 {
+        font-size: 3rem;
+    }
+
+    article .conteudo {
+        flex-direction: column;
+    }
+
+    article .conteudo .left  {
+        padding: 150px 0px 0px 60px;
+    }
+
+    article .conteudo .left h1 {
+        width: 600px;
+        font-size: 2.6rem;
+    }
+
+    article .conteudo .right {
+        padding: 150px 0px 0px 0px;
+    }
+
+    article .conteudo .right img {
+        width: 500px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    article .conteudo .left {
+        padding: 0;
+        padding: 120px 0px 0px 30px;
+    }
+    
+    article .conteudo .left h1 {
+        font-size: 2rem;
+    }
+
+    article .conteudo .right {
+        padding: 0;
+        padding: 150px 0px 0px 0px;
+    }
+
+    article .conteudo .right img {
+        width: 450px;
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    article {
+        height: 150vh;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    article {
+        height: 130vh;
+    }
+
+    article .tittle h1 {
+        font-size: 2rem;
+    }
+
+    article .conteudo .left {
+        padding: 0;
+        padding: 20px 0px 0px 50px;
+    }
+
+    article .conteudo .left h1 {
+        width: 300px;
+        font-size: 1.5rem;
+    }
+
+    article .conteudo .right {
+        padding: 0;
+        padding: 100px 0px 0px 0px;
+    }
+
+    article .conteudo .right img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    article {
+        height: 160vh;
+    }
+
+    article .tittle h1 {
+        font-size: 1.6rem;
+    }
+
+    article .conteudo .left {
+        padding: 0;
+        padding: 0px 0px 0px 50px;
+    }
+
+    article .conteudo .right {
+        padding: 0;
+        padding: 100px 0px 0px 0px;
+    }
+
+    article .conteudo .right img {
+        width: 250px;
+        height: 250px;
+    }
+}
