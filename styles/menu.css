@@ -1,0 +1,148 @@
+header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+header .logo h1 {
+    font-family: "Poppins", serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0px 0px 0px 64px;
+}
+
+.color {
+    color: #4B0082;
+}
+
+header nav {
+    display: flex;
+    gap: 60px;
+    margin-right: 80px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    transform: scale(1.4);
+}
+
+header .btn button {
+    width: 172px;
+    height: 55px;
+    border: none;
+    border-radius: 40px;
+    background-color: #ffffff;
+    color: #4B0082;
+    font-family: "Poppins", serif;
+    font-size: 1.3rem;
+    margin-right: 64px;
+    transition: 0.3s;
+}
+
+header .btn button:hover {
+    transform: scale(1.2);
+}
+
+header .menu-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    header nav {
+        display: none;
+    }
+
+    header .btn {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+        padding: 0px 44px 0px 0px;
+    }
+
+    header .logo h1 {
+        padding: 0;
+        padding: 0px 0px 0px 44px;
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    header .logo h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    header .logo h1 {
+        padding: 0;
+        padding: 0px 0px 0px 24px;
+        font-size: 1.5rem;
+    }
+
+    header .menu-mobile {
+        padding: 0;
+        padding: 0px 24px 0px 0px;
+    }
+
+    header .menu-mobile img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        height: 13vh;
+    }
+
+    header .logo h1 {
+        padding: 0;
+        padding: 0px 0px 0px 15px;
+        font-size: 1.3rem;
+    }
+
+    header .menu-mobile {
+        padding: 0;
+        padding: 0px 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    header {
+        height: 11vh;
+    }
+
+    header .logo h1 {
+        padding: 0;
+        padding: 0px 0px 0px 15px;
+        font-size: 1.1rem;
+    }
+
+    header .menu-mobile {
+        padding: 0;
+        padding: 3px 15px 0px 0px;
+    }
+
+    header .menu-mobile img {
+        width: 30px;
+        height: 30px;
+    }
+}
