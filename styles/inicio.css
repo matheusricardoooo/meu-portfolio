@@ -12,12 +12,12 @@ main .left h1 {
     font-family: "Poppins", serif;
     font-size: 2.6rem;
     font-weight: 400;
-    padding: 70px 0px 0px 64px;
+    padding: 220px 0px 0px 64px;
     color: #ffffff;
 }
 
 main .right {
-    padding: 70px 64px 0px 0px;
+    padding: 220px 64px 0px 0px;
 }
 
 main .right img {
