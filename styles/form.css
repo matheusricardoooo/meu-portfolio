@@ -1,0 +1,58 @@
+#contacto {
+    width: 100vw;
+    height: 110vh;
+    background-color: #000000;
+}
+
+#contacto .tittle h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 123px 0px 0px 0px;
+}
+
+#contacto .card-contact {
+    width: 30vw;
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    margin: 3vh 0px 0px 35vw;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#contacto .form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contacto .form-div label {
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#contacto .form-div input {
+    width: 353px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+#contacto .form-div input::placeholder {
+    font-size: 0.8rem;
+    padding-left: 10px;
+}
+
+#contacto .form-div textarea {
+    width: 358px;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+    padding: 7px;
+    height: 120px;
+}
+
