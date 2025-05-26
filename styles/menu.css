@@ -69,9 +69,14 @@ header #menu-mobile {
         display: none;
     }
 
-    header .menu-mobile {
+    header #menu-mobile {
         display: block;
         padding: 0px 44px 0px 0px;
+    }
+
+    header #menu-mobile img {
+        width: 30px;
+        height: 30px;
     }
 
     header .logo h1 {
