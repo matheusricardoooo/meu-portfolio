@@ -56,3 +56,46 @@
     height: 120px;
 }
 
+#contacto .button-form {
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px 0px 30px;
+}
+
+#contacto .button-form button {
+    width: 110px;
+    height: 40px;
+    background-color: #4B0082;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    transition: 0.3s;
+}
+
+#contacto .button-form button:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 500px) {
+
+    #contacto .card-contact {
+        width: 85vw;
+        height: 63vh;
+        margin: 0;
+        margin: 5vh 0px 0px 9vw;
+        padding: 0;
+        padding: 30px;
+    }
+
+    #contacto .form-div input {
+        width: 300px;
+        height: 20px;
+    }
+
+    #contacto .form-div textarea {
+        width: 300px;
+    }
+
+    #contacto .button-form button:hover {
+        transform: scale(none);
+    }
+}

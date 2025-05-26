@@ -55,7 +55,7 @@ header .btn button:hover {
     transform: scale(1.2);
 }
 
-header .menu-mobile {
+header #menu-mobile {
     display: none;
 }
 
