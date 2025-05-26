@@ -1,0 +1,87 @@
+footer {
+    display: flex;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    gap: 70px;
+    justify-content: center;
+    
+
+.name-left {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navigation h4 {
+    font-family: "Montserrat", serif;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-links h4 {
+    font-family: "Montserrat", serif;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.links a:hover {
+    color: var(--color-primary);
+    transition: 0.2s ease-in-out;
+}
+
+}
+
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    
+    footer {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #ffffff;
+
+        & .name-left p {
+            font-size: 18px;
+        }
+
+        & .right {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .copy {
+        font-size: 10px;
+    }
+}
