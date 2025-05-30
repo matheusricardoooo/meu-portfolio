@@ -79,7 +79,7 @@
 
     #contacto .card-contact {
         width: 85vw;
-        height: 63vh;
+        height: 68vh;
         margin: 0;
         margin: 5vh 0px 0px 9vw;
         padding: 0;
@@ -88,7 +88,7 @@
 
     #contacto .form-div input {
         width: 300px;
-        height: 20px;
+        height: 40px;
     }
 
     #contacto .form-div textarea {
