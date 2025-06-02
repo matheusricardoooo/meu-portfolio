@@ -1,6 +1,7 @@
 article {
     width: 100vw;
-    padding: 103px;
+    padding: 133px;
+    border: 2px solid red;
 }
 
 .tittle h1 {
