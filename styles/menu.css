@@ -4,6 +4,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: #000000;
 }
 
 header .logo h1 {
