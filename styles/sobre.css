@@ -1,7 +1,6 @@
 article {
     width: 100vw;
     padding: 103px;
-    border: solid 2px red;
 }
 
 article .tittle-1 h1 {
@@ -16,19 +15,68 @@ article .tittle-1 h1 {
 
 article .conteudo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 124px 0px 94px 0px;
+    justify-content: space-between;
+    padding: 104px 0px 0px 0px;
 }
 
-article .conteudo .left p {
+article .conteudo p {
     width: 548px;
     font-family: "Montserrat", serif;
     font-size: 1.8rem;
     color: #ffffff;
 }
 
-article .conteudo .right img {
+article .conteudo img {
     width: 350px;
     height: 350px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    article {
+        padding: 0;
+        padding: 103px 33px;
+    }
+
+    article .conteudo p {
+        width: 350px;
+        font-size: 1.3rem;
+    }
+
+    article .conteudo img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    article {
+        width: 100vw;
+        padding: 0;
+        padding: 104px 33px 0px;
+    }
+
+    article .tittle-1 h1 {
+        font-size: 1.6rem;
+    }
+
+    article .conteudo {
+        flex-direction: column;
+        padding: 0;
+        padding: 104px;
+    }
+
+    article .conteudo p {
+        width: 250px;
+        font-size: 1.2rem;
+        padding: 0px 0px 0px 25px;
+    }
+
+    article .conteudo img {
+        width: 250px;
+        height: 250px;
+        margin: 100px 20px;
+    }
 }
