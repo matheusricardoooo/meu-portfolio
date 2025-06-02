@@ -1,0 +1,34 @@
+article {
+    width: 100vw;
+    padding: 103px;
+    border: solid 2px red;
+}
+
+article .tittle-1 h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+article .conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 124px 0px 94px 0px;
+}
+
+article .conteudo .left p {
+    width: 548px;
+    font-family: "Montserrat", serif;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+article .conteudo .right img {
+    width: 350px;
+    height: 350px;
+}
