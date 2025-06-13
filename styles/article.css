@@ -6,7 +6,12 @@ article {
     padding: 103px 0px;
 }
 
-.tittle h3 {
+article .tittle {
+    display: flex;
+    flex-direction: column;
+}
+
+article .tittle h3 {
     font-family: "Poppins", serif;
     font-size: 2.25rem;
     font-weight: 400;
