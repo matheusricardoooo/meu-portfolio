@@ -72,3 +72,47 @@ footer {
     justify-content: center;
     margin-top: 90px;
 }
+
+@media screen and (max-width: 500px) {
+
+    footer {
+        padding: 0;
+    }
+
+    .content-end {
+        flex-direction: column;
+    }
+
+    .logo-end h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        margin-top: 60px;
+        margin-right: 40px;
+    }
+
+    .nav {
+        margin: 0;
+        margin-right: 175px;
+        margin-top: 50px;
+    }
+
+    .nav ul li a {
+        margin: 0;
+    }
+
+    .social {
+        margin: 0;
+        margin-right: 150px;
+        margin-top: 50px;
+    }
+
+    .social ul li a {
+        margin: 0;
+    }
+
+    .rights p {
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+    }
+}
