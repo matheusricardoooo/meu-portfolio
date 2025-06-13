@@ -1,0 +1,41 @@
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 159px 121px;
+    border: solid 2px red;
+}
+
+main .left h2 {
+    width: 597px;
+    font-family: "Poppins", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+main .right img {
+    width: 260px;
+    height: 260px;
+}
+
+@media screen and (max-width: 500px) {
+
+    main {
+        flex-direction: column-reverse;
+        padding: 0;
+        padding: 100px 0px 100px 10px;
+    }
+
+    main .left h2 {
+        width: 297px;
+        font-size: 1.4rem;
+        margin-top: 80px;
+    }
+
+    main .right img {
+        width: 180px;
+        height: 180px;
+    }
+}
