@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <header>
+
+        <div class="logo">
+            <h1>MATHEUS RICARDO | <span class="color">Dev</span></h1>
+        </div>
+
+        <nav>
+
+            <ul class="links">
+                <li><a href="#initial">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <img onclick="showSidebar()" class="open-menu" src="imgs/image-menuabrir.png" alt="imagem do menu">
+            </ul>
+
+            <ul class="sidebar">
+                <img onclick="hideSidebar()" class="close-menu" src="imgs/image-menufechar.png" alt="imagem do menu">
+                <li><a href="#initial">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="btn">
+            <button onclick="contact()">Contato</button>
+        </div>
+
+    </header>
+
+    <main id="initial">
+
+        <div class="left">
+            <h2>Transformando ideias em experiências digitais que impulsionam resultados</h2>
+        </div>
+
+        <div class="right">
+            <img src="imgs/image-main.png" alt="imagem de um computador">
+        </div>
+
+    </main>
+
+    <article id="sobre">
+
+        <div class="tittle">
+            <h3>Sobre mim</h3>
+            <p>Desenvolvedor Web</p>
+        </div>
+
+        <div class="content">
+
+            <div class="left">
+                <h4>Me chamo Matheus, tenho 17 anos e sou apaixonado em criar interfaces interativas.
+                Iniciante neste mundo, busco cada dia obter novos conhecimentos para melhorar meu
+                desempenho.</h4> 
+            </div>
+
+            <div class="right">
+                <img src="imgs/image-dev.png" alt="imagem do desenvolvedor">
+            </div>
+
+        </div>
+
+    </article>
+
+    <div id="projects">
+
+        <div class="tittle">
+            <h3>Projetos</h3>
+        </div>
+
+        <section class="project">
+
+            <div class="img-project">
+                <img src="imgs/image-project1.png" alt="imagem do primeiro projeto">
+            </div>
+
+            <div class="card">
+
+                <h1>Tela De Login</h1>
+                <p>Tela de login é um projeto desenvolvido por mim. A tela de login é onde se preenche o nome do usuário
+                e a senha. Nisso o sistema por trás verifica se os dados fornecidos estão no banco de dados.
+                </p>
+                <button>Acesse o reporsitório</button>
+                <button>Acesse o site</button>
+
+            </div>
+
+        </section>
+
+        <section class="project">
+
+            <div class="img-project">
+                <img src="imgs/image-project2.png" alt="imagem do segundo projeto">
+            </div>
+
+            <div class="card">
+
+                <h1>Landing Page</h1>
+                <p>Super Pet é uma landing page desenvolvida por mim com HTML, CSS e JavaScript  serve como um ponto de entrada focado
+                para as suas campanhas de marketing, projetada com um único objetivo em mente 
+                </p>
+                <button>Acesse o reporsitório</button>
+                <button>Acesse o site</button>
+
+            </div>
+
+        </section>
+
+        <section class="project">
+
+            <div class="img-project">
+                <img src="imgs/image-project3.png" alt="imagem do terceiro projeto">
+            </div>
+
+            <div class="card">
+
+                <h1>Links Rápidos</h1>
+                <p>Links Rápidos é um projeto feito com HTML, CSS e JavaScipt onde reúne todos os links de redes sociais. Possui um design
+                responsivo e facilita e navegação do usuário
+                </p>
+                <button>Acesse o reporsitório</button>
+                <button>Acesse o site</button>
+
+            </div>
+        </section>
+
+    </div>
+
+    <div id="contact">
+
+        <div class="tittle">
+            <h3>Contato</h3>
+        </div>
+
+        <div class="formulario">
+            
+            <form action="https://formsubmit.co/matheusricardodev@gmail.com" method="post">
+
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu Nome" required>
+            <label for="number">Telefone</label>
+            <input type="number" name="number" id="number" placeholder="Digite seu número" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu melhor email">
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" placeholder="Digite sua mensagem">
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
