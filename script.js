@@ -8,3 +8,7 @@
         const sidebar = document.querySelector(".sidebar");
         sidebar.style.display = "none";
 }
+
+    function contact() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth"})
+}
