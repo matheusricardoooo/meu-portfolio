@@ -4,7 +4,6 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 159px 121px;
-    border: solid 2px red;
 }
 
 main .left h2 {
